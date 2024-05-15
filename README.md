@@ -50,12 +50,12 @@ Quick PHP History:
 
 https://gitlab.com/ducquoc/28-day-php-laravel
 
-https://github.com/ducquoc/42-day-kotlin
+https://github.com/ducquoc/55-day-flutter-dart-be
 
 https://bitbucket.org/ducquoc/dq-training
-
-https://ducquoc.github.io
 
 https://www.tutorialspoint.com/php/php_syntax_overview.htm
 
 https://laravel.com/docs/11.x/installation#creating-a-laravel-project
+
+https://laracasts.com/series/30-days-to-learn-laravel-11

@@ -218,8 +218,8 @@ assert($c >= $d);
 // The following will only be true if the values match and are the same type.
 assert($c === $d);
 assert($a !== $d);
-assert(1 === '1');
-assert(1 !== '1');
+//assert(1 === '1');
+//assert(1 !== '1');
 
 // 'Spaceship' operator (since PHP 7)
 // Returns 0 if values on either side are equal
@@ -242,7 +242,7 @@ $string = '1';
 echo $string + $string; // => 2 (strings are coerced to integers)
 
 $string = 'one';
-echo $string + $string; // => 0
+echo (int) $string + (int) $string; // => 0
 // Outputs 0 because the + operator cannot cast the string 'one' to a number
 
 // Type casting can be used to treat a variable as another type
